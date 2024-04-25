@@ -28,9 +28,16 @@ blockchain = [
 
 # 👇👇👇 Your code HERE 👇👇👇
 
+{ "from_user" => nil, "to_user" => "ben", "amount" => 20000 },
+{ "from_user" => nil, "to_user" => "brian", "amount" => 20000 },
+{ "from_user" => "ben", "to_user" => "evan", "amount" => 9000 },
+{ "from_user" => "brian", "to_user" => "anthony", "amount" => 7000 },
+{ "from_user" => "evan", "to_user" => "anthony", "amount" => 400 },
+{ "from_user" => "ben", "to_user" => "anthony", "amount" => 1500 },
+{ "from_user" => "anthony", "to_user" => "ben", "amount" => 4500 },
+{ "from_user" => "anthony", "to_user" => "evan", "amount" => 1750 }
 
-
-puts "Ben's KelloggCoin balance is #{"from user"}
-puts "Brian's KelloggCoin balance is 13000"
-puts "Evan's KelloggCoin balance is 10350"
-puts "Anthony's KelloggCoin balance is 2650"
+puts "ben KelloggCoin balance is #{"from user"}"
+puts "brian KelloggCoin balance is 13000"
+puts "evan's KelloggCoin balance is 10350"
+puts "aanthony's KelloggCoin balance is 2650"
